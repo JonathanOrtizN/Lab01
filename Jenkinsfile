@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    APPNAME = "devops-lab01"
+    APPNAME = "lab01"
     IMAGE = "lab01"
     VERSION ="v2"
     REGISTRY="1713764320"
