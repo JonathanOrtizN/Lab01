@@ -3,7 +3,7 @@ pipeline {
   environment {
     APPNAME = "lab01"
     IMAGE = "lab01"
-    VERSION ="v3"
+    VERSION ="v4"
     REGISTRY="1713764320"
     DOCKER_HUB_LOGIN = credentials('DockerHubKey')
     PORT = "8091"
